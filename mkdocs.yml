@@ -1,0 +1,27 @@
+site_name: lgbsttracker_api
+site_description: lgbsttracker_api
+site_url: https://github.com/py4mac/lgbsttracker_api
+
+theme:
+    name: 'material'
+    palette:
+      primary: 'teal'
+      accent: 'amber'
+    logo: 'img/icon-white.svg'
+    favicon: 'img/favicon.png'
+
+repo_name: py4mac/lgbsttracker_api
+repo_url: https://github.com/py4mac/lgbsttracker_api
+edit_uri: ''
+
+nav:
+    - Main: 'index.md'
+
+markdown_extensions:
+  - markdown.extensions.codehilite:
+      guess_lang: false
+  - markdown_include.include:
+      base_path: docs
+  - admonition
+  - codehilite
+  - extra
