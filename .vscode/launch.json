@@ -14,5 +14,15 @@
                 "PYTHONPATH": "${workspaceFolder}",
             }
         },
+        {
+            "name": "init_db",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/examples/init_db.py",
+            "console": "integratedTerminal",
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}",
+            }
+        }
     ]
 }
